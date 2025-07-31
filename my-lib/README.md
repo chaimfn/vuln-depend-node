@@ -1,5 +1,5 @@
 # Introduction:
-This is an application that depends on a vulnerable NPM packages: <i>minimist@0.0.8</i> and <i>lodash@4.17.20</i>
+This is an application that depends on a vulnerable NPM package: <i>minimist@0.0.8</i>.
 
 
 ## Actions:
