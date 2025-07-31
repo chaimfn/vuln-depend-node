@@ -1,5 +1,5 @@
 # Introduction:
-This is an application that depends on a vulnerable Npm package (<i>jquery@3.4.0</i>), and also on another local Npm package (<i>jquery@3.4.0</i>) that is not itself vulnerable, but has dependencies on other vulnerable Npm package (<i>minimist@0.0.8</i>).
+This is an application that depends on a vulnerable Npm package (<i>jquery@3.4.0</i>), and also on another local Npm package (<i>my-lib</i>) that is not itself vulnerable, but has dependencies on other vulnerable Npm package (<i>minimist@0.0.8</i>).
 Therefore, if you scan this application, you can expect an output showing two vulnerabilities: one from the direct dependency and one from its transitive dependencies.
 
 ## Actions:
