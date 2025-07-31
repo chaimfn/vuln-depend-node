@@ -8,3 +8,5 @@ Therefore, if you scan this application, you can expect an output showing two vu
 3. Scan by mend: ```mend dep -d .```
 4. Dockerize: ```docker build -t app:node .```
 5. Scan the image: ```mend image app:node```
+
+Instead of steps 4. 5. you can scan this docker image directly from [docker hub]([http://address](https://hub.docker.com/r/chaimfn/vuln-depend/tags)): ```mend image chaimfn/vuln-depend:node.22.17```
