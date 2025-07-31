@@ -1,0 +1,11 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "chaimfr",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "3.4.0",
+    "my-lib": "file:pkgs/my-lib-1.0.0.tgz"
+  }
+}
