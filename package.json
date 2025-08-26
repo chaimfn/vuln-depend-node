@@ -1,6 +1,6 @@
 {
     "name": "@chaimfn/vuln-depend",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "A package that does not contain vulnerable code, but depends on another vulnerable package. Created for security scans/checks.",
     "main": "index.js",
     "scripts": {
@@ -11,7 +11,7 @@
         "vulnerable depended",
         "security check"
     ],
-    "author": "chaim.fn",
+    "author": "chaimfn",
     "license": "MIT",
     "type": "commonjs",
     "dependencies": {
